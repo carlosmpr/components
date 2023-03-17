@@ -4,7 +4,7 @@ import Navbar, {NavbarProps} from './Navbar';
 import { INITIAL_VIEWPORTS, } from '@storybook/addon-viewport';
 
 export default {
-    title: 'Navbar',
+    title: 'Design System/components/Navbar',
     component: Navbar,
     parameters: {
         //👇 The viewports object from the Essentials addon
@@ -14,6 +14,7 @@ export default {
    
      
         },
+        
       },
   } as Meta;
 
@@ -54,6 +55,7 @@ Tablet.args = {
           defaultViewport: 'ipad',
         },
 
+ 
   }
 
 
@@ -76,6 +78,8 @@ Mobile.args = {
         viewport: {
             defaultViewport: 'iphonex',
           },
+
+          
 
     }
 

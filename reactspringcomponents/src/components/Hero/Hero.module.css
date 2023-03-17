@@ -1,0 +1,42 @@
+.HeroWrapper{
+    width: 100%;
+    padding: 80px 20px;
+    background-color: red;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+}
+
+.HeroWrapperReverse{
+    flex-direction: row-reverse;
+}
+
+.HeroContent{
+    flex: 1;
+
+}
+
+.HeroImage{
+    width: 50%;
+
+}
+
+.HeroImage img{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 490px) {
+    .HeroWrapper{
+        padding: 15px;
+    }
+    .HeroWrapper{
+        flex-direction: column;
+    }
+
+    .HeroImage{
+        width: 100%;
+    
+    }
+}

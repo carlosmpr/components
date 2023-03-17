@@ -1,0 +1,27 @@
+.ContentWrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Content-Container {
+    width: 100%;
+    background-color: green;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media only screen and (max-width: 490px) {
+    .Content-Container {
+        padding: 0;
+    }
+}

@@ -11,7 +11,9 @@
     margin-bottom:  -10px;
 }
 
-
+.NavbarItems-active{
+    color: black
+}
 a {
   color: black;
   text-decoration: none;
@@ -23,8 +25,12 @@ a {
 
 @media (prefers-color-scheme: light) {
     .NavbarItems {
-        color: black
+        color: rgba(0, 0, 0, 0.656)
          
+        }
+
+        .NavbarItems-active{
+            color: black
         }
     /* Add your styles for light mode here */
   }

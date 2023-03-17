@@ -3,7 +3,7 @@ import { Meta, storiesOf } from '@storybook/react';
 import NavbarItem, { NavbarItemsProps } from './NavbarItem';
 
 export default {
-    title: 'NavbarItem',
+    title: 'Design System/components/Navbar/NavbarItem',
     component: NavbarItem,
   } as Meta;
 
@@ -17,6 +17,18 @@ export default {
     title: 'Home',
     icon:'https://www.ketohackny.com/images/icons/home.svg',
     href:'https://www.ketohackny.com',
-    active:'Home'
+    active:''
 
 }
+
+
+export const Active = Template.bind({});
+//@ts-ignore
+Active.args = {
+  title: 'Home',
+  icon:'https://www.ketohackny.com/images/icons/home.svg',
+  href:'https://www.ketohackny.com',
+  active:'Home'
+
+}
+
