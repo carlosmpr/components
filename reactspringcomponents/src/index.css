@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1{
+  font-size: 34px;
+  font-weight: bolder;
+}
+
+h2{
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+
+h2{
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.Intro{
+  font-size: 20px;
+}
+
+p{
+  font-size: 17px;
+}
+
+.caption{
+  font-size: 15px;
+}
+
+.smallText{
+  font-size: 13px ;
+}
