@@ -26,15 +26,27 @@ export default {
   //@ts-ignore
   Desktop.args = {
    
-
+    NavbarItems: [
+      { title: "Home",  icon:'https://www.ketohackny.com/images/icons/home.svg', href: "" },
+      { title: "Products", icon:'https://www.ketohackny.com/images/icons/menu.svg', href: "products" },
+      { title: "Contact", icon:'https://www.ketohackny.com/images/icons/email.svg', href: "contact" },
+      { title: "My order", icon:'https://www.ketohackny.com/images/icons/tracking.svg', href: "orderstatus" },
+      { title: "Cart", icon:'https://www.ketohackny.com/images/icons/shopping-cart.svg', href: "orderstatus" }
+    ]
 }
 
 
 export const DesktopReverse = Template.bind({});
 //@ts-ignore
 DesktopReverse.args = {
-  reverse:true
- 
+  reverse:true,
+  NavbarItems: [
+    { title: "Home",  icon:'https://www.ketohackny.com/images/icons/home.svg', href: "" },
+    { title: "Products", icon:'https://www.ketohackny.com/images/icons/menu.svg', href: "products" },
+    { title: "Contact", icon:'https://www.ketohackny.com/images/icons/email.svg', href: "contact" },
+    { title: "My order", icon:'https://www.ketohackny.com/images/icons/tracking.svg', href: "orderstatus" },
+    { title: "Cart", icon:'https://www.ketohackny.com/images/icons/shopping-cart.svg', href: "orderstatus" }
+  ]
 
 }
 
@@ -43,7 +55,13 @@ DesktopReverse.args = {
 export const Tablet = Template.bind({});
 //@ts-ignore
 Tablet.args = {
-  
+  NavbarItems: [
+    { title: "Home",  icon:'https://www.ketohackny.com/images/icons/home.svg', href: "" },
+    { title: "Products", icon:'https://www.ketohackny.com/images/icons/menu.svg', href: "products" },
+    { title: "Contact", icon:'https://www.ketohackny.com/images/icons/email.svg', href: "contact" },
+    { title: "My order", icon:'https://www.ketohackny.com/images/icons/tracking.svg', href: "orderstatus" },
+    { title: "Cart", icon:'https://www.ketohackny.com/images/icons/shopping-cart.svg', href: "orderstatus" }
+  ]
   
   }
 
@@ -61,7 +79,13 @@ Tablet.args = {
 export const Mobile = Template.bind({});
   //@ts-ignore
 Mobile.args = {
-   
+  NavbarItems: [
+    { title: "Home",  icon:'https://www.ketohackny.com/images/icons/home.svg', href: "" },
+    { title: "Products", icon:'https://www.ketohackny.com/images/icons/menu.svg', href: "products" },
+    { title: "Contact", icon:'https://www.ketohackny.com/images/icons/email.svg', href: "contact" },
+    { title: "My order", icon:'https://www.ketohackny.com/images/icons/tracking.svg', href: "orderstatus" },
+    { title: "Cart", icon:'https://www.ketohackny.com/images/icons/shopping-cart.svg', href: "orderstatus" }
+  ]
     
     }
 
