@@ -45,3 +45,8 @@ p{
 .smallText{
   font-size: 13px ;
 }
+
+
+::-webkit-scrollbar {
+  display: none;
+}
