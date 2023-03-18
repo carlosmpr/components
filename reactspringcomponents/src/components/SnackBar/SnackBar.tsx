@@ -7,7 +7,7 @@ interface SnackBarProps {
   onHide: () => void;
 }
 
-const SnackBar: React.FC<SnackBarProps> = ({ message, show, onHide }) => {
+const SnackBar = ({ message, show, onHide }: SnackBarProps) => {
   const [isMounted, setIsMounted] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
