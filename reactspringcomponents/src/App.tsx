@@ -1,25 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Page from './components/PageLayout/Page/Page';
 
 function App() {
+  //@ts-ignore
+  const NavbarItems = [
+    { title: "Home",  icon:'https://www.ketohackny.com/images/icons/home.svg', href: "" },
+    { title: "Products", icon:'https://www.ketohackny.com/images/icons/menu.svg', href: "products" },
+    { title: "Contact", icon:'https://www.ketohackny.com/images/icons/email.svg', href: "contact" },
+    { title: "My order", icon:'https://www.ketohackny.com/images/icons/tracking.svg', href: "orderstatus" },
+    { title: "Cart", icon:'https://www.ketohackny.com/images/icons/shopping-cart.svg', href: "orderstatus" }
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //@ts-ignore
+    <Page  NavbarItems={NavbarItems}/>
   );
 }
 

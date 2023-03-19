@@ -1,0 +1,10 @@
+.SpacerWrapper{
+    height: 20vh;
+}
+
+
+@media only screen and (max-width: 490px) {
+    .SpacerWrapper{
+        height: 8vh;
+    }
+}
