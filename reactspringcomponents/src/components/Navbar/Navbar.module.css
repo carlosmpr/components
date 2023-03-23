@@ -81,3 +81,19 @@ z-index: 200;
       }
       
   }
+
+
+  .CartNotification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 360px;
+    position: absolute;
+    top: -35%;
+    right: 0;
+    color: white;
+    background-color:  rgba(34, 197, 64, 0.8);
+  
+  }
