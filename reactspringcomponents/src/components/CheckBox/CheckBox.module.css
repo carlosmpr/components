@@ -1,0 +1,53 @@
+/* AnimatedCheckbox.module.css */
+.checkboxWrapper {
+    display: inline-block;
+  }
+  
+  .checkboxLabel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+  }
+  
+  .checkboxInput {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #000;
+    margin-right: 8px;
+  }
+  
+  .checkmark {
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    will-change: transform, opacity;
+  }
+  
+  .checkboxText {
+    display: inline-block;
+  }
+  
+  .lightFont {
+    font-weight: 300;
+  }
